@@ -13,7 +13,7 @@ const LoginScreen = props => {
           style={styles.image}
         />
         <Text style={styles.textTitle}>Selamat Datang!</Text>
-        <Text style={styles.textBody}>Log in to your existant account</Text>
+        <Text style={styles.textBody}>Silahkan Masukan Akun</Text>
         <View style={{ marginTop: 5 }} />
         <Inputs name="Email" icon="user" />
         <Inputs name="Password" icon="lock" pass={true} />
